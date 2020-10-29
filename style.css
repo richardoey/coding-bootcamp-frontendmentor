@@ -1,0 +1,79 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 50px auto;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 300px;
+}
+
+.image-container {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  background-image: url(images/pattern-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.client-photo {
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 10px 20px -10px #202046;
+}
+
+.image-slider-button {
+  position: relative;
+  width: 60px;
+  margin: auto;
+  justify-content: space-between;
+  flex-direction: row;
+  border-radius: 10px;
+  box-shadow: 0 10px 50px -10px #202046;
+  background-color: white;
+  bottom: 10px;
+  z-index: 1;
+}
+
+.quote {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.2px;
+  font-size: 1rem;
+  width: 300px;
+}
+
+.client-name {
+  margin: auto;
+  text-align: center;
+  font-weight: 700;
+  color: #202046;
+  letter-spacing: 0.2px;
+  width: 300px;
+}
+
+.client-job {
+  margin: auto;
+  text-align: center;
+  font-weight: 700;
+  color: #babacf;
+  letter-spacing: 0.2px;
+  width: 300px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=style.css.map */
